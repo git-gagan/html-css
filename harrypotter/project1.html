@@ -4,17 +4,25 @@
 <style>
 body{
 background-image: url('back.jpg'); }
+.images{
+    display: flex;
+    justify-content: space-between;
+}
 img{
-height: 500px;
-width: 330px; 
+    border: 1px black groove;
+    height: 400px;
+    width: 285px;
+    margin-bottom: 20px;;
+}
+img:hover{
+    height: 450px;
+    width:350px;
+    image-rendering: crisp-edges;
 }
 video{
 height: 100%;
 width: 100%;
-audio{
-background-color: blue;
 }
-
 </style>
 <meta charset="utf-8">
 <title>Harry Potter Saga</title>
@@ -24,7 +32,7 @@ background-color: blue;
 <font face="comic sans ms" size=5 color=red><i><center><u><h1>Welcome to the world of wizardry</u></h1></center></i></font>
 </header>
 
-<div>
+<div class='images'> 
 <img src="https://irs.www.warnerbros.com/keyart-jpeg/movies/media/browser/harry_potter_8film_2000x3000.jpg" alt="unavailable"/>
 <img src="https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg" " alt="unavailable"/>
 <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2018%2F10%2Fvoldemort-21.jpg&c=sc&poi=face&q=85"  alt="unavailable"/>
@@ -36,7 +44,7 @@ background-color: blue;
 <form>
 <fieldset>
 <legend>USER INFORMATION</legend>
-<p align="left"><h3>JOIN THE COMMUNITY!</h3></P>
+<p><h3>JOIN THE COMMUNITY!</h3></P>
 Enter your name<br>
 <input type="text" name="username"><br>
 Enter your number<br>
